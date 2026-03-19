@@ -1,8 +1,8 @@
 class Cli < Formula
   desc "Remote terminal accessible from your phone via QR code"
   homepage "https://github.com/rafgirao/remote-terminal"
-  url "https://github.com/rafgirao/remote-terminal/releases/download/v0.14.0/remote-terminal-0.14.0.tar.gz"
-  sha256 "8f6a7c36996913944e65f902cf3ceb3415c3f16ae17908ff620c15e3bb38284f"
+  url "https://github.com/rafgirao/remote-terminal/releases/download/v0.15.0/remote-terminal-0.15.0.tar.gz"
+  sha256 "1b18240cce814a873e9bd96d793f632ca0d81324e63f76951159a72424eebefa"
   license "MIT"
 
   depends_on "tmux"

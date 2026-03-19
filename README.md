@@ -23,8 +23,7 @@ Every session is protected by a random 128-bit token in the URL — no one can a
 ## Install
 
 ```bash
-brew tap rafgirao/rt
-brew install rt
+brew install rafgirao/rt
 ```
 
 Then run the interactive setup to install a tunnel provider:
@@ -258,8 +257,7 @@ Then restart tmux: `tmux kill-server` (this will close all tmux sessions).
 
 ```bash
 rt stop --all
-brew uninstall rt
-brew untap rafgirao/rt
+brew uninstall rt && brew untap rafgirao/rt
 ```
 
 ## License
